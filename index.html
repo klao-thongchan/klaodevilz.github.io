@@ -1,13 +1,73 @@
+HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Test Portfolio</title>
+    <title>Thongchan Klao Thananate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        main {
+            display: flex; /* For side-by-side layout */
+        }
+
+        section {
+            flex: 1; /* Sections take up equal space */
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 0 0 300px; /* Fixed width for the aside */
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, this is my GitHub Pages test!</h1>
-    <p>This website is under construction but feel free to look around.</p>
-    <p>klaodevilz.github.io</p>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Projects</h2>
+            </section>
+
+        <aside>
+            <h2>About Me</h2>
+            <h3>Skills</h3>
+            </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Thongchan Thananate</p>
+    </footer>
 </body>
 </html>

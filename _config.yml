@@ -1,12 +1,12 @@
 # Site settings
-title: Your Portfolio Name  # Replace with the title of your portfolio
-email: your-email@example.com  # Replace with your contact email 
+title: Thongchan Klao Thananate Portfolio  # Replace with the title of your portfolio
+email: thananate.t@gmail.com  # Replace with your contact email 
 description: >-  # A brief description of your portfolio
   A showcase of my projects, skills, and experiences. 
 baseurl: ""  # Leave empty if your site is at the root of yourusername.github.io
 url: ""  # The base URL of your site (eg. https://yourusername.github.io) 
 twitter_username: yourTwitterHandle  # Replace if you want to include your Twitter 
-github_username: yourGitHubUsername  # Replace with your GitHub username
+github_username: klaodevilz  # Replace with your GitHub username
 
 # Build settings (leave these as is for basic setup)
 markdown: kramdown
